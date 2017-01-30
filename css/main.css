@@ -15,7 +15,7 @@ body
     font-family: 'Microsoft YaHei';
 
     color: #333;
-    background: url(particle.png) #f1f1f1;
+    background: url(//static.yihouzenmeban.com/home/image/particle.png) #f1f1f1;
 }
 .content
 {
@@ -265,7 +265,7 @@ li:hover
     -webkit-transition: all .2s ease-in-out;
             transition: all .2s ease-in-out;
 
-    background: url(sprite.png);
+    background: url(//static.yihouzenmeban.com/home/image/sprite.png);
 }
 .icon-blog
 {
