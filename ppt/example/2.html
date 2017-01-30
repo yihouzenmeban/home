@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Vue.js</title>
+	<link rel="stylesheet" type="text/css" href="base.css">
+	<script type="text/javascript" src="vue.min.js"></script>
+</head>
+<body>
+	<ul id="app">
+		<li v-for="value in object">
+			{{ value }}
+		</li>
+	</ul>
+	<script type="text/javascript">
+		new Vue({
+			el: '#app',
+			data: {
+				object: {
+					top: '好好学习',
+					bottom: '天天向上'
+				}
+			}
+		})
+	</script>
+</body>
+</html>

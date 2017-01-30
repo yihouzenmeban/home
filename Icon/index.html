@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <style type="text/css">
+        * {
+            padding: 0px;
+            margin: 0px;
+            }
+        body {
+            background-color: #303030;
+            background-image: url("bg.png");
+        }
+        .content {
+            width: 400px;
+            height: 400px;
+            padding: 20px;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            margin-top: -150px;
+            margin-left: -150px;
+            text-indent: 0px;
+        }
+        ul {
+            list-style: none;
+        }
+        li {
+            margin: 5px;
+            float: left;
+            border-radius: 5px;
+            position: relative;
+            top: 0;
+            background-color: #3d3d3d;
+            transition: all .2s ease-in-out;
+        }
+        li:hover {
+            top: -5px;
+        }
+        .icon {
+            display: block;
+            width: 32px;
+            height: 32px;
+            margin: 3px;
+            background: url(sprite.png);
+            transition: all .2s ease-in-out;
+        }
+        .icon-blog {
+            background-position: 0 0;
+        }
+        .box-blog:hover {
+            background-color: #00BFFF;
+        }
+        .icon-github {
+            background-position: -32px 0;
+        }
+        .box-github:hover {
+            background-color: #D7D7D7;
+        }
+        .icon-zhihu {
+            background-position: -64px 0;
+        }
+        .box-zhihu:hover {
+            background-color: #1A7CD3;
+        }
+        .icon-weibo {
+            background-position: -96px 0;
+        }
+        .box-weibo:hover {
+            background-color: #BF2E25;
+        }
+        .icon-douban {
+            background-position: -128px 0;
+        }
+        .box-douban:hover {
+            background-color: #007711;
+        }
+        .icon-linkedin {
+            background-position: -160px 0;
+        }
+        .box-linkedin:hover {
+            background-color: #1F88BD;
+        }
+        .icon-aboutme {
+            background-position: -192px 0;
+        }
+        .box-aboutme:hover {
+            background-color: #E0C89C;
+        }
+    </style>
+</head>
+<body>
+    <div class="content">
+        <ul>
+            <li class="box-blog">
+                <a href="http://blog.yihouzenmeban.com" class="icon icon-blog"></a>
+            </li>
+            <li class="box-github">
+                <a href="https://github.com/yihouzenmeban" class="icon icon-github"></a>
+            </li>
+            <li class="box-zhihu">
+                <a href="http://www.zhihu.com/people/yihouzenmeban" class="icon icon-zhihu"></a>
+            </li>
+            <li class="box-weibo">
+                <a href="http://weibo.com/yihouzenmeban " class="icon icon-weibo"></a>
+            </li>
+            <li class="box-douban">
+                <a href="http://www.douban.com/people/Dolt-" class="icon icon-douban"></a>
+            </li>
+            <li class="box-linkedin">
+                <a href="https://cn.linkedin.com/in/yihouzenmeban" class="icon icon-linkedin"></a>
+            </li>
+            <li class="box-aboutme">
+                <a href="http://yihouzenmeban.com/resume" class="icon icon-aboutme"></a>
+            </li>
+        </ul>
+    </div>
+</body>
+</html>
