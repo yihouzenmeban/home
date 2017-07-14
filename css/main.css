@@ -5,20 +5,18 @@ ul,
 li,
 h1,
 h2,
-a
-{
+p,
+a {
     margin: 0;
     padding: 0;
 }
-body
-{
-    font-family: 'Microsoft YaHei';
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Microsoft YaHei';
 
     color: #333;
     background: url(//static.yihouzenmeban.com/home/image/particle.png) #f1f1f1;
 }
-.content
-{
+.content {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -34,84 +32,71 @@ body
 
     opacity: 1;
 }
-@-webkit-keyframes come
-{
-    0%
-    {
+@-webkit-keyframes come {
+    0% {
         -webkit-transform: translate(0, -300px);
                 transform: translate(0, -300px,);
 
         opacity: 0;
     }
-    10%
-    {
+    10% {
         -webkit-transform: translate(0, -150px);
                 transform: translate(0, -150px);
 
         opacity: .2;
     }
-    50%
-    {
+    50% {
         -webkit-transform: translate3d(0, -100x, 0);
                 transform: translate3d(0, -100x, 0);
 
         opacity: .4;
     }
-    90%
-    {
+    90% {
         -webkit-transform: translate(0, -50x);
                 transform: translate(0, -50x);
 
         opacity: .8;
     }
-    100%
-    {
+    100% {
         -webkit-transform: translate(0, 0px);
                 transform: translate(0, 0px);
 
         opacity: 1;
     }
 }
-@keyframes come
-{
-    0%
-    {
+@keyframes come {
+    0% {
         -webkit-transform: translate(0, -300px);
                 transform: translate(0, -300px);
 
         opacity: 0;
     }
-    10%
-    {
+    10% {
         -webkit-transform: translate(0, -150px);
                 transform: translate(0, -150px);
 
         opacity: .2;
     }
-    50%
-    {
+    50% {
         -webkit-transform: translate(0, -100x);
                 transform: translate(0, -100x);
 
         opacity: .4;
     }
-    90%
-    {
+    90% {
         -webkit-transform: translate(0, -50x);
                 transform: translate(0, -50x);
 
         opacity: .8;
     }
-    100%
-    {
+    100% {
         -webkit-transform: translate(0, 0px);
                 transform: translate(0, 0px);
 
         opacity: 1;
     }
 }
-#avatar
-{
+#avatar {
     overflow: hidden;
 
     width: 96px;
@@ -123,22 +108,19 @@ body
 
     border-radius: 50%;
 }
-#avatar:hover
-{
+#avatar:hover {
     -webkit-transform: rotate(360deg);
         -ms-transform: rotate(360deg);
             transform: rotate(360deg);
 }
-h1
-{
+h1 {
     font-weight: 700;
 
     margin-top: 30px;
 
     letter-spacing: 9px;
 }
-h2
-{
+h2 {
     font-weight: normal;
 
     margin-top: 25px;
@@ -147,18 +129,15 @@ h2
 
     color: #999;
 }
-.myInfo
-{
+.myInfo {
     padding: 20px;
 
     text-indent: 0;
 }
-ul
-{
+ul {
     list-style: none;
 }
-li
-{
+li {
     position: relative;
     top: 0;
 
@@ -174,88 +153,74 @@ li
     opacity: 1;
     border-radius: 5px;
 }
-@-webkit-keyframes jump
-{
-    0%
-    {
+@-webkit-keyframes jump {
+    0% {
         -webkit-transform: translate(0, -11px);
                 transform: translate(0, -11px);
 
         opacity: 0;
     }
-    10%
-    {
+    10% {
         -webkit-transform: translate(0, -10px);
                 transform: translate(0, -10px);
 
         opacity: .2;
     }
-    50%
-    {
+    50% {
         -webkit-transform: translate(0, -7px);
                 transform: translate(0, -7px);
 
         opacity: .4;
     }
-    90%
-    {
+    90% {
         -webkit-transform: translate(0, -3px);
                 transform: translate(0, -3px);
 
         opacity: .8;
     }
-    100%
-    {
+    100% {
         -webkit-transform: translate(0, 0px);
                 transform: translate(0, 0px);
 
         opacity: 1;
     }
 }
-@keyframes jump
-{
-    0%
-    {
+@keyframes jump {
+    0% {
         -webkit-transform: translate(0, -11px);
                 transform: translate(0, -11px);
 
         opacity: 0;
     }
-    10%
-    {
+    10% {
         -webkit-transform: translate(0, -10px);
                 transform: translate(0, -10px);
 
         opacity: .2;
     }
-    50%
-    {
+    50% {
         -webkit-transform: translate(0, -7px);
                 transform: translate(0, -7px);
 
         opacity: .4;
     }
-    90%
-    {
+    90% {
         -webkit-transform: translate(0, -3px);
                 transform: translate(0, -3px);
 
         opacity: .8;
     }
-    100%
-    {
+    100% {
         -webkit-transform: translate(0, 0px);
                 transform: translate(0, 0px);
 
         opacity: 1;
     }
 }
-li:hover
-{
+li:hover {
     top: -5px;
 }
-.icon
-{
+.icon {
     display: block;
 
     width: 32px;
@@ -267,88 +232,91 @@ li:hover
 
     background: url(//static.yihouzenmeban.com/home/image/sprite.png);
 }
-.icon-blog
-{
+.icon-blog {
     background-position: 0 0;
 }
-li:hover .icon-blog
-{
+li:hover .icon-blog {
     background-position: -32px 0;
 }
-.box-blog:hover
-{
+.box-blog:hover {
     background-color: #071;
 }
-.box-blog
-{
+.box-blog {
     -webkit-animation-delay: .2s;
             animation-delay: .2s;
 }
-.icon-github
-{
+.icon-github {
     background-position: -64px 0;
 }
-li:hover .icon-github
-{
+li:hover .icon-github {
     background-position: -96px 0;
 }
-.box-github:hover
-{
+.box-github:hover {
     background-color: #000;
 }
-.box-github
-{
+.box-github {
     -webkit-animation-delay: .4s;
             animation-delay: .4s;
 }
-.icon-zhihu
-{
+.icon-zhihu {
     background-position: -128px 0;
 }
-li:hover .icon-zhihu
-{
+li:hover .icon-zhihu {
     background-position: -160px 0;
 }
-.box-zhihu:hover
-{
+.box-zhihu:hover {
     background-color: #1a7cd3;
 }
-.box-zhihu
-{
+.box-zhihu {
     -webkit-animation-delay: .8s;
             animation-delay: .8s;
 }
-.icon-linkedin
-{
+.icon-linkedin {
     background-position: -192px 0;
 }
-li:hover .icon-linkedin
-{
+li:hover .icon-linkedin {
     background-position: -224px 0;
 }
-.box-linkedin:hover
-{
+.box-linkedin:hover {
     background-color: #1f88bd;
 }
-.box-linkedin
-{
+.box-linkedin {
     -webkit-animation-delay: .6s;
             animation-delay: .6s;
 }
-.icon-aboutme
-{
+.icon-aboutme {
     background-position: -256px 0;
 }
-li:hover .icon-aboutme
-{
+li:hover .icon-aboutme {
     background-position: -288px 0;
 }
-.box-aboutme:hover
-{
+.box-aboutme:hover {
     background-color: #f40;
 }
-.box-aboutme
-{
+.box-aboutme {
     -webkit-animation-delay: 1s;
             animation-delay: 1s;
+}
+footer {
+    position: fixed;
+    bottom: 0;
+
+    width: 100%;
+}
+footer p {
+    font-size: 12px;
+
+    padding: 15px;
+
+    text-align: center;
+
+    color: #586069;
+}
+footer p a {
+    text-decoration: none;
+
+    color: #586069;
+}
+footer p a:hover {
+    text-decoration: underline;
 }
